@@ -7,6 +7,7 @@ view: building_permits {
   }
 
   dimension: address {
+    description: "Address"
     type: string
     sql: ${TABLE}.address ;;
   }
