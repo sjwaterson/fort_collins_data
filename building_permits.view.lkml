@@ -99,6 +99,7 @@ view: building_permits {
 
 
   dimension: permitnum {
+    description : "Permit Number"
     type: string
     sql: ${TABLE}.permitnum ;;
   }
