@@ -10,6 +10,7 @@ explore: building_permits {}
 explore: council_districts {}
 explore: floodplain {}
 explore: liquor_licenses {}
+explore: precipitation {}
 
 map_layer: fema_floodplain_map {
   file: "FloodPlain_FEMA.json"
