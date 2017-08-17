@@ -32,8 +32,13 @@ view: precipitation {
     sql: ${TABLE}.station ;;
   }
 
-  measure: count {
+  measure: measurements_count {
     type: count
     drill_fields: [name]
+  }
+
+  measure: precipitation_in_inches {
+    type: sum
+    sql: ${precipitation} ;;
   }
 }
