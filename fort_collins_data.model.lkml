@@ -3,9 +3,6 @@ connection: "fort_collins"
 # include all the views
 include: "*.view"
 
-# include all the dashboards
-include: "*.dashboard"
-
 explore: building_permits {}
 explore: council_districts {}
 explore: floodplain {}

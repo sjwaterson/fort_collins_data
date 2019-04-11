@@ -12,6 +12,12 @@ view: building_permits {
     sql: ${TABLE}.address ;;
   }
 
+  dimension: address2 {
+    description: "Address that I am going to delete"
+    type: string
+    sql: ${TABLE}.address ;;
+  }
+
   dimension: arc_single_line_input {
     type: string
     sql: ${TABLE}.arc_single_line_input ;;
