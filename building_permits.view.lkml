@@ -14,7 +14,7 @@ view: building_permits {
 
   dimension: address2 {
     description: "Address that I am going to delete"
-    type: strings
+    type: string
     sql: ${TABLE}.address ;;
   }
 
